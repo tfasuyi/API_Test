@@ -15,7 +15,7 @@ def get_all_attractions_for_a_city_New_York():
     response_body = response.json()
     print("New York Attractions are:")
     for d in response_body:
-        attraction = d['title']
+         attraction = d['cityId' and 'title' ]
         print(attraction)
 
 
@@ -25,7 +25,7 @@ def get_all_attractions_for_a_city_New_York_type_Museum_ordered_by_desc(cityid,t
     response_body = response.json()
     print("New York Attractions for type Museum  are:")
     for d in response_body:
-        attraction = d['type' and 'title']
+        attraction = d['type' and 'cityId'and 'title']
 
         print(attraction)
 
