@@ -15,7 +15,7 @@ def get_all_attractions_for_a_city_New_York():
     response_body = response.json()
     print("New York Attractions are:")
     for d in response_body:
-         attraction = d['cityId' and 'title' ]
+        attraction = d['cityId' and 'title' ]
         print(attraction)
 
 
